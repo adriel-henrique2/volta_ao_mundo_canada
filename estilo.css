@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: black;
+}
+header {
+    background-color: black;
+}
+#topo {
+    width: 900px;
+    height: 320px;
+    margin: auto;
+}
+header h1 {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 65px;
+    color:#D80621;
+    letter-spacing: 12px;
+    line-height: 70px;
+    width: 600px;
+    float: left;
+    padding: 60px 0 30px;
+}
+header p{
+    color: #FFF;
+    font-size: 20px;
+    width: 600px;
+    float: left;
+}
+header img {
+    margin-top: 10px;
+}
+main h2 {
+    text-align: center;
+    padding: 30px 0 40px;
+    color: #fff;
+    font-size: 32px;
+    letter-spacing: 2px;
+    height: 50px;
+}
+#conteudo-home {
+    width: 1280px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 150px;
+}
+.textual {
+    border: 2px solid #fff;
+    border-radius: 15px;
+    margin: 7px;
+    float: left;
+    margin-bottom: 30px;
+}
+.foto {
+    width: 1280px;
+    height: 840px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+.foto img {
+    border: 2px solid #fff;
+    border-radius: 15px;
+    margin: 7px;
+    float: left;
+    width: 600px;
+    height: 350px;
+    margin-top: 35px;
+}
+.foto p {
+    float: right;
+    width: 600px;
+    height: 300px;
+}
+#conteudo-home p {
+    text-align: left;
+    margin: 15px 15px 20px;
+    font-weight: bold;
+    color: #fff;
+}
+footer {
+    background-color: #D80621;
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+    padding: 20px 0;
+}
+nav {
+    background-color: #D80621;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+nav ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    padding-left: auto;
+    margin: auto;
+    width: 1400px;
+
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    font-size: 24px;
+    background-color: #D80621;
+    width: 270px;
+    height: 40px;
+    margin-top: 1px;
+    display: block;
+    text-align: center;
+    padding: 4px;
+    color: #FFF;
+    border-radius: 10px;
+}
+nav ul li a:hover {
+    background-color: #FFF;
+    color: #D80621;
+    text-shadow: 10px 10px 20px #fff;
+}
+p {
+    color: white;
+    font-size: 19px;
+}
+h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
